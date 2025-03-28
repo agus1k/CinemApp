@@ -1,4 +1,4 @@
-package org.agus.springboot.cinema_project.exception;
+package org.agus.springboot.cinema_project.exception.custom;
 
 public class MovieNotFoundException extends RuntimeException {
     public MovieNotFoundException(String message) {

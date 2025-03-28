@@ -2,21 +2,18 @@ package org.agus.springboot.cinema_project.services;
 
 import org.agus.springboot.cinema_project.dtos.FunctionDto;
 import org.agus.springboot.cinema_project.entities.*;
-import org.agus.springboot.cinema_project.exception.AuditoriumNotFoundException;
-import org.agus.springboot.cinema_project.exception.FunctionNotFoundException;
-import org.agus.springboot.cinema_project.exception.MovieNotFoundException;
+import org.agus.springboot.cinema_project.exception.custom.AuditoriumNotFoundException;
+import org.agus.springboot.cinema_project.exception.custom.FunctionNotFoundException;
+import org.agus.springboot.cinema_project.exception.custom.MovieNotFoundException;
 import org.agus.springboot.cinema_project.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Service

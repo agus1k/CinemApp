@@ -1,7 +1,7 @@
 package org.agus.springboot.cinema_project.services;
 
 import org.agus.springboot.cinema_project.entities.Auditorium;
-import org.agus.springboot.cinema_project.exception.AuditoriumNotFoundException;
+import org.agus.springboot.cinema_project.exception.custom.AuditoriumNotFoundException;
 import org.agus.springboot.cinema_project.repositories.AuditoriumRepository;
 import org.springframework.stereotype.Service;
 

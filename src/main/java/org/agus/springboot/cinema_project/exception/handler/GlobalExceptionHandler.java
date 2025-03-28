@@ -1,8 +1,8 @@
-package org.agus.springboot.cinema_project.exception;
+package org.agus.springboot.cinema_project.exception.handler;
 
+import org.agus.springboot.cinema_project.exception.custom.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
