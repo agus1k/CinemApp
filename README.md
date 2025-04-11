@@ -149,6 +149,15 @@ mvn spring-boot:run
   }
 ]
 ```
+## 🧩 Otros endpoints
+`PUT /movies/update/{id}` → Actualiza una película (solo admin).
+`DELETE /movies/delete/{id}` → Elimina una película (solo admin).
+`GET /functions/by-date` → Lista funciones filtradas por fecha.
+`PUT /functions/update/{id}` → Actualiza una función (solo admin).
+`DELETE /functions/delete/{id}` → Elimina una función (solo admin).
+`PUT /functions/update/{id}` → Actualiza una función (solo admin).
+`DELETE /functions/delete/{id}` → Elimina una función (solo admin).
+
 
 ## 🔐 Seguridad y Roles
 - **Admin:** Puede gestionar películas y funciones.
