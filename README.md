@@ -64,7 +64,7 @@ mvn spring-boot:run
 ```json
 {
   "id": 5,
-  "description": "Gladiator",
+  "description": "Some description for Gladiator",
   "genre": "Acción"
 }
 ```
