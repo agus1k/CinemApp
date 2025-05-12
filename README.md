@@ -11,7 +11,7 @@ CinemApp es una aplicación backend desarrollada en **Java** con **Spring Boot**
 - **Autenticación:** Spring Security con JWT
 - **Gestor de Dependencias:** Maven
 
-## ⚙Instalación y Configuración
+## Instalación y Configuración
 
 ### Prerrequisitos
 - Tener instalado Java 17 o superior.
@@ -31,7 +31,13 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
 
 ### Ejecución del Proyecto
 ```bash
+## BACKEND
+cd backend
 mvn spring-boot:run
+## FRONTEND
+cd frontend
+npm install
+npm run dev
 ```
 
 ## Endpoints Principales
@@ -170,15 +176,38 @@ Authorization: Bearer <TOKEN>
 
 ---
 
-##  Nota Final
+## Imagenes del front
 
-Este proyecto es una **API REST**, es decir, una aplicación que gestiona datos y lógica del lado del servidor. No tiene una interfaz visual, ya que está diseñada para ser **consumida por un cliente externo** (por ejemplo, una app web o móvil).
+### Página de inicio
+![image](https://github.com/user-attachments/assets/753e5bb7-d37c-4cea-b755-b98ecb30275b)
 
- Actualmente estoy desarrollando el **frontend de CinemApp**, que se conectará con esta API para brindar una experiencia completa al usuario.
+### Se selecciona una película
+![image](https://github.com/user-attachments/assets/8f7c9eb9-fb7a-42e8-aa76-8b78e98ecba0)
 
----
+### Selección de asiento
+![image](https://github.com/user-attachments/assets/c9446d43-a7dc-4df9-bbee-7f1e4fbcfad2)
+
+### Pago
+![image](https://github.com/user-attachments/assets/eced37dc-1f34-49a5-99cb-26508f211ef6)
+
+### Perfil
+![image](https://github.com/user-attachments/assets/ec88674d-defb-487a-8369-b2cd0a0c06a1)
+
+### Panel de administrador
+![image](https://github.com/user-attachments/assets/0d4962ef-7897-45ed-b4e1-ad40e44e92b6)
+
+### Agregar y editar películas
+![image](https://github.com/user-attachments/assets/2113f961-e8de-41b4-9d6c-0776cfb1def1)
+![image](https://github.com/user-attachments/assets/0c206745-da1b-4584-a274-dbc70ef5ab6e)
+
+### Agregar y editar funciones
+![image](https://github.com/user-attachments/assets/151d90a2-03e4-4ebb-999e-edb527f03164)
+![image](https://github.com/user-attachments/assets/1de5ff68-74a5-4644-b850-0724279f1f5a)
+
+
 
 ## Autor
 **Agustin Miranda**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn--blue?style=social&logo=linkedin)](https://www.linkedin.com/in/agustinmiranda16/) 
+
 
