@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="098a457e-71fe-408a-a60b-fe758c8a8af1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/UserBookingDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/UserProfileDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/controllers/BookingRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/controllers/BookingRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/controllers/FunctionRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/controllers/FunctionRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/controllers/MovieRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/controllers/MovieRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/controllers/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/controllers/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/BookingDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/BookingDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/FunctionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/FunctionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/MovieDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/MovieDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/MovieWithGenreDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/MovieWithGenreDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/dtos/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/entities/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/entities/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/entities/FunctionSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/entities/FunctionSeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/entities/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/entities/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/entities/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/entities/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/exception/custom/MailExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/exception/custom/MailExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/exception/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/repositories/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/repositories/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/repositories/FunctionSeatRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/repositories/FunctionSeatRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/security/filter/JwtAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/security/filter/JwtAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/services/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/services/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/services/FunctionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/services/FunctionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/services/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/services/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/services/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/services/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/validation/IsFunctionExistsValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/org/agus/springboot/cinema_project/validation/IsFunctionExistsValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Exception" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2tzytk012IveE16MXES3KXSWnEK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CinemaProjectApplication.executor&quot;: &quot;Run&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/agus2/OneDrive/Desktop/Spring/cinema_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora&quot;,
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="CinemaProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="cinema_project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.agus.springboot.cinema_project.CinemaProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="098a457e-71fe-408a-a60b-fe758c8a8af1" name="Changes" comment="" />
+      <created>1741369416368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741369416368</updated>
+      <workItem from="1741369417862" duration="242000" />
+      <workItem from="1741625387740" duration="5625000" />
+      <workItem from="1741703129593" duration="7848000" />
+      <workItem from="1741789960545" duration="7631000" />
+      <workItem from="1741803518992" duration="20000" />
+      <workItem from="1741876030020" duration="9013000" />
+      <workItem from="1741961476322" duration="8535000" />
+      <workItem from="1742220216385" duration="8222000" />
+      <workItem from="1742236970652" duration="118000" />
+      <workItem from="1742307435161" duration="663000" />
+      <workItem from="1742317097494" duration="3819000" />
+      <workItem from="1742393985358" duration="8027000" />
+      <workItem from="1742479026917" duration="6053000" />
+      <workItem from="1742489050243" duration="2886000" />
+      <workItem from="1742565687714" duration="6933000" />
+      <workItem from="1743001660150" duration="5079000" />
+      <workItem from="1743084953845" duration="7534000" />
+      <workItem from="1743162028870" duration="10276000" />
+      <workItem from="1743198394213" duration="1118000" />
+      <workItem from="1743203552798" duration="14000" />
+      <workItem from="1744236826555" duration="1657000" />
+      <workItem from="1744303163489" duration="394000" />
+      <workItem from="1744411797596" duration="2193000" />
+      <workItem from="1744808577371" duration="91000" />
+      <workItem from="1745326335875" duration="5370000" />
+      <workItem from="1745349249906" duration="384000" />
+      <workItem from="1745407892782" duration="9182000" />
+      <workItem from="1745436731431" duration="1062000" />
+      <workItem from="1745494454232" duration="7352000" />
+      <workItem from="1745512177757" duration="1153000" />
+      <workItem from="1745521100634" duration="1780000" />
+      <workItem from="1745579169205" duration="9709000" />
+      <workItem from="1745601086198" duration="868000" />
+      <workItem from="1745763579425" duration="21000" />
+      <workItem from="1745839853574" duration="8015000" />
+      <workItem from="1745925594428" duration="9582000" />
+      <workItem from="1746012556436" duration="10157000" />
+      <workItem from="1746101927487" duration="8764000" />
+      <workItem from="1746119492295" duration="4775000" />
+      <workItem from="1746187626313" duration="13971000" />
+      <workItem from="1746226864477" duration="1252000" />
+      <workItem from="1746452430716" duration="926000" />
+      <workItem from="1746789993660" duration="2480000" />
+      <workItem from="1747048332750" duration="7577000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
